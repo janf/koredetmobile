@@ -12,20 +12,15 @@ import {
   View
 } from 'react-native';
 
+import { MKButton } from 'react-native-material-kit';
+
 export default class koredet extends Component {
   render() {
+    const ColoredButton = MKButton.coloredButton().withText("Hello, World!").build();
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+        <ColoredButton />
+        <Text>Test</Text>
       </View>
     );
   }
