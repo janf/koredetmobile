@@ -1,9 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
-    package="com.koredetmobile"
-=======
+
     package="com.koredet"
->>>>>>> f42a4540307eee1b9ab8abeed39d93a95366b580
     android:versionCode="1"
     android:versionName="1.0">
 
