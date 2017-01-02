@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 rootProject.name = 'koredetmobile'
+=======
+rootProject.name = 'koredet'
+include ':react-native-material-kit'
+project(':react-native-material-kit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-material-kit/android')
+>>>>>>> f42a4540307eee1b9ab8abeed39d93a95366b580
 
 include ':app'

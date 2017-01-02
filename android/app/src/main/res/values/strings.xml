@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">koredetmobile</string>
+=======
+    <string name="app_name">koredet</string>
+>>>>>>> f42a4540307eee1b9ab8abeed39d93a95366b580
 </resources>

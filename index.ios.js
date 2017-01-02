@@ -12,7 +12,11 @@ import {
   View
 } from 'react-native';
 
+<<<<<<< HEAD
 export default class koredetmobile extends Component {
+=======
+export default class koredet extends Component {
+>>>>>>> f42a4540307eee1b9ab8abeed39d93a95366b580
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +54,8 @@ const styles = StyleSheet.create({
   },
 });
 
+<<<<<<< HEAD
 AppRegistry.registerComponent('koredetmobile', () => koredetmobile);
+=======
+AppRegistry.registerComponent('koredet', () => koredet);
+>>>>>>> f42a4540307eee1b9ab8abeed39d93a95366b580

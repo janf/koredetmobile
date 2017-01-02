@@ -4,13 +4,17 @@
  * @flow
  */
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> f42a4540307eee1b9ab8abeed39d93a95366b580
 import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
   Text,
+<<<<<<< HEAD
   View,
   ToolbarAndroid
 } from 'react-native';
@@ -49,6 +53,20 @@ export default class koredetmobile extends Component {
           Shake or press menu button for dev menu
         </Text>
 
+=======
+  View
+} from 'react-native';
+
+import { MKButton } from 'react-native-material-kit';
+
+export default class koredet extends Component {
+  render() {
+    const ColoredButton = MKButton.coloredButton().withText("Hello, World!").build();
+    return (
+      <View style={styles.container}>
+        <ColoredButton />
+        <Text>Test</Text>
+>>>>>>> f42a4540307eee1b9ab8abeed39d93a95366b580
       </View>
     );
   }
@@ -62,7 +80,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   welcome: {
+<<<<<<< HEAD
     fontSize: 30,
+=======
+    fontSize: 20,
+>>>>>>> f42a4540307eee1b9ab8abeed39d93a95366b580
     textAlign: 'center',
     margin: 10,
   },
@@ -73,4 +95,8 @@ const styles = StyleSheet.create({
   },
 });
 
+<<<<<<< HEAD
 AppRegistry.registerComponent('koredetmobile', () => koredetmobile);
+=======
+AppRegistry.registerComponent('koredet', () => koredet);
+>>>>>>> f42a4540307eee1b9ab8abeed39d93a95366b580
